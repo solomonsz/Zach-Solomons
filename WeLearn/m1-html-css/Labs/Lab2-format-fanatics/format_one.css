@@ -16,6 +16,23 @@
 
 .container {
   display: grid;
-  grid-template-columns: /*insert format here*/;
-  grid-template-rows: /*insert formal here*/;
+  grid-template-columns: [line1] auto [line2] auto;
+  grid-template-rows: [line1] auto [line2] auto;
+  grid-gap: 3px;
+}
+
+#topleft {
+  background-color: #57e0bd;
+}
+
+#topright {
+  background-color: #e0577c;
+}
+
+#botleft {
+  background-color: #7f57e0;
+}
+
+#botright {
+  background-color: #2b74d6; 
 }
