@@ -59,6 +59,9 @@ class HelloHandler(webapp2.RequestHandler):
     def get(self):
         self.response.write('Hello World. Welcome to the root route of my app')
 
+class GoodbyeHandler(webapp2.RequestHandler):
+    def get(localhost:8080/farewell):
+        self.response.write('Goodbye World')
 # Route mapping
 app = webapp2.WSGIApplication([
     # This line routes the main url ('/')  - also know as

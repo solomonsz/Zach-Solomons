@@ -42,7 +42,7 @@ def get_fortune():
                   'On the Tuesday after next, an odd meeting will lead to a new opportunity.',
                   'Despite dry skies, bring an umbrella tomorrow.',
                   'A thrilling time is in your immediate future.',
-                  'Someone has Googled you recently.',
+                   'Someone has Googled you recently.',
                   'Stay alert. You will be part of a rescue mission.',
                   'You will beat Watson in a game of Jeopardy. Start studying though']
     return(random.choice(fortune_list))

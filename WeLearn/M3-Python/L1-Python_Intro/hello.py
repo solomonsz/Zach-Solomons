@@ -1,8 +1,8 @@
-"""string = "hello there "
+string = "hello there "
 for letter in string:
     print(letter.upper())
 
-x = 1
+"""x = 1
 while x <= 5:
     print(x)
     x = x + 1
@@ -29,11 +29,11 @@ print("My name is " + name + " and I'm " + str(age) + " years old." )
 def greetAgent(first_name, last_name):
     print("%s. %s. %s." % (last_name, first_name, last_name))
 
-greetAgent("James", "Bond")"""
+greetAgent("James", "Bond")
 
 def findSum(x):
     sum = 0
     for i in range(x):
             sum = sum + i
     return sum+x
-print(findSum(20))
+print(findSum(20))"""
